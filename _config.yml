@@ -1,2 +1,3 @@
-name: Mod Phon Ltd
-highlighter: pygments
+name: Mod Phon Ltd.
+markdown: redcarpet
+pygments: true

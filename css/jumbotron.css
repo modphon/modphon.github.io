@@ -2,10 +2,8 @@
 body {
 	padding-top: 50px;
 	padding-bottom: 0;
-/*
 	font-family: serif;
 	color: white;
-*/
 }
 
 .jumbotron {
@@ -15,11 +13,5 @@ body {
 }
 
 .container {
-	padding-top: 0;
+	padding: 0;
 }
-
-/*
-.content {
-	padding-top: 150px;
-}
-*/

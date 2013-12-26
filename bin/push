@@ -1,7 +1,0 @@
-#!/bin/bash
-rsync -avz --delete \
-           --exclude 'redmine' \
-           --exclude 'cruisecontrol' \
-           --exclude 'cgi-bin' \
-      _site/ \
-      modphonc@modphon.com:public_html

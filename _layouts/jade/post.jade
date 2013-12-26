@@ -1,19 +1,9 @@
-|{% include top.html %}
-.container
-  .content
-    h1
-      a(href='/blog.html') Blog
-    h2
-      | {{ page.entry }}&nbsp;
-      span.small &laquo; {{ page.date | date_to_string }}
-    .well {{ content }}
-    #discourse-comments
-    script.
-      var discourseUrl = 'http://community.modphon.com/';
-      var discourseEmbedUrl = 'http://modphon.com/{{ page.permalink }}/';
-      (function() {
-        var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;
-        d.src = discourseUrl + 'javascripts/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);
-      })();
-|{% include bottom.html %}
+{% include top.html %}
+.content
+	h1
+		a(href="/blog.html") Blog
+	h2
+		| {{ page.entry }}&nbsp;
+		span.small &laquo; {{ page.date | date_to_string }}
+	.well {{ content }}
+{% include bottom.html %}
