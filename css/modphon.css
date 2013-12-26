@@ -1,0 +1,56 @@
+.content {
+	padding: 1em;
+}
+
+p {
+	font-family: serif;
+	text-align: left;
+}
+
+.footer hr {
+	margin: 0;
+	padding: 0;
+}
+
+.footer .content{
+	margin: 0;
+	padding:  0.5em 1em 0 1em;
+}
+
+.social {
+	display: inline;
+	text-align: right;
+}
+
+a.btn {
+	font-family: sans-serif;
+}
+
+.well {
+	background-color: #333;
+	background-image: none;
+}
+
+/*.post {
+	padding: 2em;
+}*/
+
+/*.panel-heading {
+	background-color: #666 !important;
+	background-image: none;
+}
+
+a.panel-title {
+	color: blue;
+	text-decoration: none;	
+}
+
+a.panel-title:hover {
+	color: green;
+	text-decoration: none;	
+}
+
+a.panel-title:visited {
+	color: purple;
+	text-decoration: none;	
+}*/
