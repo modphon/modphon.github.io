@@ -1,0 +1,19 @@
+#!/bin/bash
+here=`dirname $0`
+here=`cd $here; pwd`
+basedir=`dirname $here`
+srcdir=$basedir/src
+destdir=$basedir/_site
+logdir=$basedir/logs
+jade_log=$logdir/jade.log
+jekyll_log=$logdir/jekyll.log
+
+mkdir -p $logdir $srcdir/_layouts/jade 2>/dev/null
+
+cd $srcdir/_layouts/jade
+nohup jade --watch --out ../ *.jade > $jade_log 2>&1 &
+echo Jade PID is $!, log at $jade_log
+
+cd $srcdir
+nohup jekyll server --watch --destination $destdir > $jekyll_log 2>&1 &
+echo Jekyll PID is $!, log at $jekyll_log
