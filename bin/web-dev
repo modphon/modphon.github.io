@@ -2,7 +2,7 @@
 here=`dirname $0`
 here=`cd $here; pwd`
 basedir=`dirname $here`
-srcdir=$basedir/src
+srcdir=$basedir/
 destdir=$basedir/_site
 logdir=$basedir/logs
 jade_log=$logdir/jade.log
