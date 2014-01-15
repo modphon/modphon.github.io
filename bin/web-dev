@@ -15,5 +15,5 @@ nohup jade --watch --out ../ *.jade > $jade_log 2>&1 &
 echo Jade PID is $!, log at $jade_log
 
 cd $srcdir
-nohup jekyll server --watch --destination $destdir > $jekyll_log 2>&1 &
+nohup jekyll server -P 3000 --watch --destination $destdir > $jekyll_log 2>&1 &
 echo Jekyll PID is $!, log at $jekyll_log
