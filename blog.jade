@@ -2,6 +2,8 @@
 layout: default
 title: Blog
 ---
+script
+  $(function () { $("#blog-nav-button").addClass("active"); });
 h1 {{ page.title }}
 {% for post in site.posts %}
 h2
