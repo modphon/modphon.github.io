@@ -62,6 +62,9 @@ a.panel-title:visited {
 .navbar-brand {
     /* override bootstrap padding: 15px 15px */
     padding: 1px 15px 0px 15px;
+/*
+    padding: 6px 15px 0px 15px;
+*/
     text-transform: none;
     color: #32cd32 !important;
 }
@@ -71,9 +74,11 @@ a.panel-title:visited {
 }
 
 .faq {
-    padding-top: 1.25em;
+    padding-top: 1em;
 }
 
+/*
 .answer p {
     padding-left: 1em;
 }
+*/
