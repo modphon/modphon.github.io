@@ -2,11 +2,14 @@
     padding: 1em;
 }
 
+/*
 p {
     font-family: serif;
     text-align: left;
     font-size: 13.5pt;
+    color: #ddd;
 }
+*/
 
 .footer hr {
     margin: 0;
@@ -58,9 +61,19 @@ a.panel-title:visited {
 
 .navbar-brand {
     /* override bootstrap padding: 15px 15px */
-    padding: 0px 15px;
+    padding: 1px 15px 0px 15px;
+    text-transform: none;
+    color: #32cd32 !important;
 }
 
 .navbar-brand img {
     max-height: 50px;
+}
+
+.faq {
+    padding-top: 1.25em;
+}
+
+.answer p {
+    padding-left: 1em;
 }
