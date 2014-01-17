@@ -2,42 +2,46 @@
 layout: default
 title: Mod Phon
 ---
-.jumbotron
-  .container
-    h1 The Synthesizer Different
-    p
-      | Touch the keys. Feel the knobs. Hear the music. The Synthesizer Different is here.
-      | Or more precisely, it is almost here. Meanwhile, please keep your eyes, ears and
-      | mind open.
-    p Coming soon to an iPad near you...
+.row
+  .col-md-12
+    :markdown
+      # The Synthesizer Different
+
+      Touch the keys. Feel the knobs. Hear the music. The Synthesizer
+      Different is here.  Or more precisely, it is almost
+      here. Meanwhile, please keep your eyes, ears and mind open.
+
+      Coming soon to an iPad near you...
   .row
     .col-md-8.col-md-offset-2
       img(src="/img/screenshot.png" width="100%")
-      p
-        a.btn.btn-primary.btn-lg(role="button") Learn more &raquo;
 .row
-  .col-md-4
-    h2 Products
-    p
-      | Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac
-      | cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit
-      | amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+  .col-md-6
+    :markdown
+      ## Products
+
+      This is some text to see what happens when I use a markdown filter.
+      With any luck it'll do the right thing. You never know, however, so
+      it is definitely worth testing to see what happens.
+
+      This is another paragraph to see how the markdown filter handles
+      multiple paragraphs. It should just do the right thing, of course.
+      But again, one can never be sure until one sees it in action and
+      verifies that it has indeed done the correct thing.
+
+      Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus
+      ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa
+      justo sit amet risus. Etiam porta sem malesuada magna mollis euismod.
+      Donec sed odio dui.
     p
       a.btn.btn-success(href="/products.html" role="button") View details &raquo;
-  .col-md-4
-    h2 Blog
-    p
-      | Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac
-      | cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit
-      | amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-    p
-      a.btn.btn-success(href="/blog.html" role="button") View details &raquo;
-  .col-md-4
-    h2 Support
-    p
-      | Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget
-      | quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus
-      | ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo
-      | sit amet risus.
+  .col-md-6
+    :markdown
+      ## Support
+
+      Donec sed odio dui. Cras justo odio, dapibus ac facilisis in,
+      egestas eget quam. Vestibulum id ligula porta felis euismod
+      semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris
+      condimentum nibh, ut fermentum massa justo sit amet risus.
     p
       a.btn.btn-success(href="#" role="button") View details &raquo;
