@@ -26,12 +26,14 @@ p {
     text-align: right;
 }
 
+/*
 a.btn {
     font-family: sans-serif;
 }
+*/
 
 .well {
-    background-color: #333;
+    background-color: #222;
     background-image: none;
 }
 

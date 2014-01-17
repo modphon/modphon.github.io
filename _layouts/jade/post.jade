@@ -1,9 +1,10 @@
 {% include top.html %}
-.content
-  h1
-    a(href="/blog.html") Blog
-  h2
-    | {{ page.entry }}&nbsp;
-    span.small &laquo; {{ page.date | date_to_string }}
-  .well {{ content }}
+.container
+  .content
+    h1
+      a(href="/blog.html") Blog
+    h2
+      | {{ page.entry }}&nbsp;
+      span.small &laquo; {{ page.date | date_to_string }}
+    .well {{ content }}
 {% include bottom.html %}
