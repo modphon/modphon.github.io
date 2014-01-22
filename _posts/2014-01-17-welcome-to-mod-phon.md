@@ -2,7 +2,7 @@
 layout: post
 entry:	"Welcome to Mod Phon!"
 date:   2014-01-17
-categories: modphon update
+permalink: blog/2014-01-17-welcome-to-mod-phon
 ---
 
 Today we launched the new website. It is still early days, and there

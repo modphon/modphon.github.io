@@ -2,7 +2,7 @@
 layout: post
 entry:	"The Community site is live!"
 date:   2014-01-21
-categories: modphon community update
+permalink: blog/2014-01-21-the-community-site-is-live
 ---
 
 The Community site is now live!
