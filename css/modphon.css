@@ -84,3 +84,8 @@ a.panel-title:visited {
     padding-left: 1em;
 }
 */
+
+#discourse-comments html {
+    color: #fff !important;
+    background-color: #222 !important;
+}

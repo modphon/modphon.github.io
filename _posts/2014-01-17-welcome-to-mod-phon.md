@@ -12,4 +12,4 @@ Meanwhile, we *are*. We are *here*. We are here *now*. You? Where are *you*?
 
 ----------
 
-Discuss this post (or just leave comments) at [the Community forum](http://community.modphon.com/t/welcome-to-mod-phon/10)
+Discuss this post (or just leave comments) at [the Community forum](http://community.modphon.com/t/mod-phon-welcome-to-mod-phon/13)
