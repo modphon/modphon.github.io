@@ -34,5 +34,7 @@ header {
 }
 
 a[href].button {
-  background-color: #ccc;
+  background-color: #666;
+  color: #bbb;
 }
+
