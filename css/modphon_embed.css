@@ -1,0 +1,38 @@
+body {
+  background-color: #060606;
+  color: #888;
+}
+
+article.post {
+  border-bottom: 1px solid #555;
+  background-color: #222;
+  color: #888;
+}
+
+article.post .post-date {
+  color: #666;
+}
+
+article.post .author h3 {
+  color: #7b9cb4;
+}
+
+.post-replies {
+  background-color: #333;
+}
+
+.in-reply-to {
+  color: #666;
+}
+
+.replies {
+  color: #666;
+}
+
+header {
+  border-bottom: 1px solid #555;
+}
+
+a[href].button {
+  background-color: #ccc;
+}
