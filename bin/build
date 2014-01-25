@@ -1,0 +1,14 @@
+#!/bin/bash
+here=`dirname $0`
+here=`cd $here; pwd`
+basedir=`dirname $here`
+srcdir=$basedir/
+destdir=$basedir/_site
+
+mkdir -p $logdir $srcdir/_layouts/jade 2>/dev/null
+
+cd $srcdir/_layouts/jade
+jade --out ../ *.jade
+
+cd $srcdir
+jekyll build --destination $destdir
