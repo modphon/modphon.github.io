@@ -16,7 +16,3 @@ Please take a few minutes and see for yourself:
 around all you want, but to participate you should
 sign in via Google, Facebook, Twitter or Yahoo. Alternatively, you can
 register the old fashioned way and then sign in. Your choice.
-
-----------
-
-Discuss this post (or just leave comments) at [the Community forum](http://community.modphon.com/t/mod-phon-the-community-site-is-live/12)
