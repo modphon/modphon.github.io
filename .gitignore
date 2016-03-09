@@ -1,4 +1,4 @@
 *~
-_layouts/*.html
+#_layouts/*.html
 _site/
 logs/

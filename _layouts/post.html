@@ -1,0 +1,7 @@
+{% include top.html %}<div class="container"><div class="content"><h1><a href="/blog.html">Blog</a></h1><h2>{{ page.entry }}&nbsp;<span class="small">&laquo; {{ page.date | date_to_string }}</span></h2><div class="well">{{ content }}</div><div id="discourse-comments"></div><script>var discourseUrl = 'http://community.modphon.com/';
+var discourseEmbedUrl = 'http://modphon.com/{{ page.permalink }}/';
+(function() {
+  var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;
+  d.src = discourseUrl + 'javascripts/embed.js';
+  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);
+})();</script></div></div>{% include bottom.html %}
